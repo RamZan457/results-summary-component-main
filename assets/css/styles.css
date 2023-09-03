@@ -1,0 +1,146 @@
+.redd {
+  background-color: #fff6f5;
+}
+.gree {
+  background-color: #f2fbfa;
+}
+.yell {
+  background-color: #fffbf2;
+}
+.gry {
+  background-color: #f3f3fd;
+}
+
+.redd > .redi {
+  color: #e88c8b;
+}
+.yell > .yelli {
+  color: #f1c476;
+}
+.gree > .greeni {
+  color: #54b39b;
+}
+.gry > .grayi {
+  color: #555cbb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: large;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  font-family: sans-serif;
+}
+.order-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.score-card {
+  background-color: hsl(247, 90%, 59%);
+  font-size: large;
+  text-align: center;
+}
+.card {
+  width: 250px;
+  padding: 35px;
+  border-radius: 20px;
+  color: hsl(0, 0%, 80%);
+  box-shadow: 0px 0px 50px gray;
+}
+.card2 {
+  padding: 40px 30px;
+  width: 250px;
+}
+
+.circle {
+  background-color: #4927d5;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 25px auto;
+  padding: 10px;
+}
+
+.great {
+  margin: 20px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 550;
+}
+.whitesh {
+  color: whitesmoke;
+}
+.borwnish {
+  color: rgb(223, 223, 223);
+  font-size: 1.2rem;
+  font-weight: 550;
+}
+
+h2 {
+  font-size: 5rem;
+  margin: 5px auto 0;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  margin: 0px;
+}
+h3 {
+  font-size: 1.3rem;
+}
+.summary {
+  background-color: hsl(0, 0%, 98%);
+  color: black;
+  font-weight: 500;
+  font-size: 10px;
+}
+.moods div {
+  display: flex;
+  padding: 10px 15px;
+  justify-content: space-between;
+  margin: 20px 0px;
+  border-radius: 10px;
+  align-self: center;
+}
+.moods div span {
+  font-weight: 700;
+}
+.padd {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+button {
+  padding: 10px 35%;
+  text-align: center;
+  margin: 10px auto auto 5px;
+  background-color: #303b59;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+button:hover {
+  background-color: #384568;
+}
+
+@media (max-width: 690px) {
+  .card {
+    width: 100%;
+  }
+  .order-card {
+    padding: 5px;
+  }
+}
